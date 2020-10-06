@@ -1,8 +1,4 @@
 {
-  "engines": {
-    "node": "12.x",
-    "yarn": "1.22.5"
-  },
   "name": "yd2h_client",
   "version": "0.1.0",
   "private": true,
