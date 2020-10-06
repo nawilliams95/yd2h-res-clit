@@ -1,14 +1,15 @@
 import React from "react";
-import logo from '../yd2hlanding2.gif'
+import logo from '../ezgif.com-gif-to-mp4.mp4';
 
 export default function SplashPage(props) {
-    return (
-        <>
-        
-        <div id="bg">
-          <img id="logo-gif" alt="YD2H logo gif" src={logo} />  
-        </div>
-        
-        </>
-    )
+  return (
+    <>
+
+      <div id="bg">
+        <video controls="" autoplay="" loop="" class="myVideo"><source src={logo} type="video/mp4" />
+        </video>
+      </div>
+
+    </>
+  )
 }
