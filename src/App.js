@@ -19,6 +19,7 @@ import Feed from './components/community/Feed';
 import PublicShow from './components/community/PublicShow';
 import About from './components/about/About';
 import AdminLogin from './components/admin/Login';
+import Twitter from './core-components/SocialSidebar';
 
 let endpoint = 'https://user-account-service-yd2h.herokuapp.com/'
 
@@ -137,6 +138,12 @@ export default function App(props) {
             path="/home"
             render={(props) => {
               return <Home />;
+            }}
+          />
+          <Route
+            path="/twitter"
+            render={(props) => {
+              return <Twitter />;
             }}
           />
           <Route
